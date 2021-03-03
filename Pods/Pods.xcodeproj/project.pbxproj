@@ -6,20 +6,46 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		131F03A3194962DD7A50330E94EA6D03 /* Pods-GoldenScent-GoldenScentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA535F6FD2CD8956DF5755FF5E3ED63 /* Pods-GoldenScent-GoldenScentUITests-dummy.m */; };
-		367F620DF2730B29771958EC2E619470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		41D57367FC37A60B6A17E7D6DABBBC15 /* Pods-GoldenScentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAC39596B44C7A6350EC7296B691627 /* Pods-GoldenScentTests-dummy.m */; };
-		459A358CC70FBAD4BC46363D6EAFEE43 /* Pods-GoldenScent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157402678E77A2D94261653E9E67A6E /* Pods-GoldenScent-dummy.m */; };
-		51AF81352F325641EC9DDB79711A907B /* Pods-GoldenScent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E82229A4256184CD591D5342C25928B3 /* Pods-GoldenScent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48238789C5DCC6C1D2A7BF40FDC85524 /* Pods-GoldenScent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E82229A4256184CD591D5342C25928B3 /* Pods-GoldenScent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBA4F8AC6AA31B4173820EEFBB16E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		52CD8DB42A225D91C7B0212A00C45482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		99CB9B1323AB1D6D2565C102184280E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BDD907A2845519F744282E15C6809157 /* Pods-GoldenScent-GoldenScentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C7B311804A715E57630A6226173AC9 /* Pods-GoldenScent-GoldenScentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C64BFEB6AEC0D5D24EB0E57FEB7435B /* Pods-GoldenScent-GoldenScentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C7B311804A715E57630A6226173AC9 /* Pods-GoldenScent-GoldenScentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F78041BCC0911DA10B76FB194E450E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		937A4AE39514910A68E9DC2401681713 /* Pods-GoldenScent-GoldenScentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA535F6FD2CD8956DF5755FF5E3ED63 /* Pods-GoldenScent-GoldenScentUITests-dummy.m */; };
 		CC185666DEBBE2DA324706573B0BA99A /* Pods-GoldenScentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3A2B72959BE7CF2D1A799D5729224 /* Pods-GoldenScentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE50101838A93501EF96A882ADE07D8 /* Pods-GoldenScent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157402678E77A2D94261653E9E67A6E /* Pods-GoldenScent-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3245832CD498B6674277BD50AA7A93EF /* PBXContainerItemProxy */ = {
+		10874146929CCF588F03817BFD45E5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		8C2B9C9B1EF812CE75D495DAC5C3E60F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		95D387A28F09E17A0209102420D74D04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -34,6 +60,7 @@
 		1A9E78B08F832B2402C54386C4E00BF5 /* Pods-GoldenScentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoldenScentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28B28DDE0F6222E167B6320D1CA988A4 /* Pods-GoldenScentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoldenScentTests.release.xcconfig"; sourceTree = "<group>"; };
 		3EAC39596B44C7A6350EC7296B691627 /* Pods-GoldenScentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoldenScentTests-dummy.m"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		3FA535F6FD2CD8956DF5755FF5E3ED63 /* Pods-GoldenScent-GoldenScentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoldenScent-GoldenScentUITests-dummy.m"; sourceTree = "<group>"; };
 		4A3206E956ABA769FE4E0C9640B258D0 /* Pods-GoldenScent-GoldenScentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoldenScent-GoldenScentUITests.modulemap"; sourceTree = "<group>"; };
 		565B7F45B4DB1D7F9BCC573450F738B4 /* Pods-GoldenScent-GoldenScentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoldenScent-GoldenScentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -41,6 +68,7 @@
 		6004FA7AB44CC12BD1EAF1076850B54B /* Pods_GoldenScentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoldenScentTests.framework; path = "Pods-GoldenScentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7953F51CBEC17EE8CA4F5C54BDEFA293 /* Pods-GoldenScent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoldenScent.debug.xcconfig"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		9157402678E77A2D94261653E9E67A6E /* Pods-GoldenScent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoldenScent-dummy.m"; sourceTree = "<group>"; };
 		93910F3AE0F1DF3A1415BE6B5E71F37A /* Pods-GoldenScent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoldenScent-Info.plist"; sourceTree = "<group>"; };
 		97C7B311804A715E57630A6226173AC9 /* Pods-GoldenScent-GoldenScentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoldenScent-GoldenScentUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -61,11 +89,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14C08E236599A19289CF125AEF0835C3 /* Frameworks */ = {
+		731CD38C97CA42D07FD939AE970C99F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99CB9B1323AB1D6D2565C102184280E5 /* Foundation.framework in Frameworks */,
+				4BBA4F8AC6AA31B4173820EEFBB16E5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +105,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC1A66252F7B4ADB780B8102412351DB /* Frameworks */ = {
+		C74F2F6138E1EB649C212721A48C9463 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367F620DF2730B29771958EC2E619470 /* Foundation.framework in Frameworks */,
+				7F78041BCC0911DA10B76FB194E450E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +182,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
 		83C442BBF19CE66F9A1AD023864AA573 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,11 +202,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				83C442BBF19CE66F9A1AD023864AA573 /* Products */,
 				784193B966180D616628F735B255BD6C /* Targets Support Files */,
 			);
@@ -182,6 +229,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -193,19 +249,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A98525BD68B3C2149E9808C0F4BA6900 /* Headers */ = {
+		732EE3095E4AB5C61C31CB40FD967D0B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD907A2845519F744282E15C6809157 /* Pods-GoldenScent-GoldenScentUITests-umbrella.h in Headers */,
+				7C64BFEB6AEC0D5D24EB0E57FEB7435B /* Pods-GoldenScent-GoldenScentUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC4DAD09BED13E9F29D8B4A181F27A5 /* Headers */ = {
+		CA8F8A1438660D1D718B049EE34F0565 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AF81352F325641EC9DDB79711A907B /* Pods-GoldenScent-umbrella.h in Headers */,
+				48238789C5DCC6C1D2A7BF40FDC85524 /* Pods-GoldenScent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +270,17 @@
 /* Begin PBXNativeTarget section */
 		03C833775F4572F47E29765DE9922146 /* Pods-GoldenScent-GoldenScentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A164B06A8ADC13CF2942C06F811E419 /* Build configuration list for PBXNativeTarget "Pods-GoldenScent-GoldenScentUITests" */;
+			buildConfigurationList = B0629C4526DBBD8FA75870BF092A7390 /* Build configuration list for PBXNativeTarget "Pods-GoldenScent-GoldenScentUITests" */;
 			buildPhases = (
-				A98525BD68B3C2149E9808C0F4BA6900 /* Headers */,
-				41CB2E33AAB08BB2FAA186C191188DDB /* Sources */,
-				AC1A66252F7B4ADB780B8102412351DB /* Frameworks */,
-				96EF6704EF965B7A9C75DF5B735BCF2B /* Resources */,
+				732EE3095E4AB5C61C31CB40FD967D0B /* Headers */,
+				0460E57BC40929656790D79B93A536C3 /* Sources */,
+				731CD38C97CA42D07FD939AE970C99F5 /* Frameworks */,
+				8B12391D57C9B1441E719F16743829F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC0DD39A676FB16381780ED2651727DB /* PBXTargetDependency */,
 			);
 			name = "Pods-GoldenScent-GoldenScentUITests";
 			productName = "Pods-GoldenScent-GoldenScentUITests";
@@ -232,16 +289,17 @@
 		};
 		214F658C93EADC9EF28CB956B54085BC /* Pods-GoldenScent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C99D5D1DDEF88B9DEFB16E88B9D1C79E /* Build configuration list for PBXNativeTarget "Pods-GoldenScent" */;
+			buildConfigurationList = 5F86B0C3CD70C2E7A5254851A0329417 /* Build configuration list for PBXNativeTarget "Pods-GoldenScent" */;
 			buildPhases = (
-				FBC4DAD09BED13E9F29D8B4A181F27A5 /* Headers */,
-				0ABC198CCE29E2CE7497E51F7530A466 /* Sources */,
-				14C08E236599A19289CF125AEF0835C3 /* Frameworks */,
-				FB1A6A8A560AFC0CC061E89C7654469C /* Resources */,
+				CA8F8A1438660D1D718B049EE34F0565 /* Headers */,
+				9EE93512A80180BBB7CAA47DDD97947E /* Sources */,
+				C74F2F6138E1EB649C212721A48C9463 /* Frameworks */,
+				8926CBFDE64EDFC6C78AEF773E9BC271 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7C96CA5BE1F7D17E4DBE561B6C016BE4 /* PBXTargetDependency */,
 			);
 			name = "Pods-GoldenScent";
 			productName = "Pods-GoldenScent";
@@ -260,7 +318,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C177975F87120DEB6C90104B6C36BE6D /* PBXTargetDependency */,
+				ABE482E9A9E5F608F5C015EDFB3CC68C /* PBXTargetDependency */,
 			);
 			name = "Pods-GoldenScentTests";
 			productName = "Pods-GoldenScentTests";
@@ -292,6 +350,7 @@
 				214F658C93EADC9EF28CB956B54085BC /* Pods-GoldenScent */,
 				03C833775F4572F47E29765DE9922146 /* Pods-GoldenScent-GoldenScentUITests */,
 				B601CEFAEA6A1099A573FF649117C95A /* Pods-GoldenScentTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
@@ -304,14 +363,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96EF6704EF965B7A9C75DF5B735BCF2B /* Resources */ = {
+		8926CBFDE64EDFC6C78AEF773E9BC271 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB1A6A8A560AFC0CC061E89C7654469C /* Resources */ = {
+		8B12391D57C9B1441E719F16743829F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,19 +380,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ABC198CCE29E2CE7497E51F7530A466 /* Sources */ = {
+		0460E57BC40929656790D79B93A536C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459A358CC70FBAD4BC46363D6EAFEE43 /* Pods-GoldenScent-dummy.m in Sources */,
+				937A4AE39514910A68E9DC2401681713 /* Pods-GoldenScent-GoldenScentUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41CB2E33AAB08BB2FAA186C191188DDB /* Sources */ = {
+		9EE93512A80180BBB7CAA47DDD97947E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131F03A3194962DD7A50330E94EA6D03 /* Pods-GoldenScent-GoldenScentUITests-dummy.m in Sources */,
+				ECE50101838A93501EF96A882ADE07D8 /* Pods-GoldenScent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,15 +407,65 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C177975F87120DEB6C90104B6C36BE6D /* PBXTargetDependency */ = {
+		7C96CA5BE1F7D17E4DBE561B6C016BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 10874146929CCF588F03817BFD45E5C3 /* PBXContainerItemProxy */;
+		};
+		ABE482E9A9E5F608F5C015EDFB3CC68C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GoldenScent";
 			target = 214F658C93EADC9EF28CB956B54085BC /* Pods-GoldenScent */;
-			targetProxy = 3245832CD498B6674277BD50AA7A93EF /* PBXContainerItemProxy */;
+			targetProxy = 95D387A28F09E17A0209102420D74D04 /* PBXContainerItemProxy */;
+		};
+		CC0DD39A676FB16381780ED2651727DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 8C2B9C9B1EF812CE75D495DAC5C3E60F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0061DB5807A727889B6349100582117B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC054CB2E9127C311E1872CCA5854E02 /* Pods-GoldenScent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -423,7 +532,82 @@
 			};
 			name = Debug;
 		};
-		80A55B02D14EFCA94FE51F8E89CFAC2B /* Debug */ = {
+		1DB8B7420E852F1937D13BA2289C4916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7953F51CBEC17EE8CA4F5C54BDEFA293 /* Pods-GoldenScent.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		247092BFEEC67A121C1234068B76CFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B649ABB4E8C207F6BC07F0A2E0B3AC /* Pods-GoldenScent-GoldenScentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		693D74E610A98F93BD4B6C6DB4438167 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE51F4B25DECDC8F1276DEA49D391E0B /* Pods-GoldenScent-GoldenScentUITests.debug.xcconfig */;
 			buildSettings = {
@@ -459,44 +643,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8F76FEA4BDD6ECC62D6EAF92EB0D7A8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC054CB2E9127C311E1872CCA5854E02 /* Pods-GoldenScent.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		92A3E9AC052A7345115439021B218E3B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -560,42 +706,22 @@
 			};
 			name = Release;
 		};
-		95ECC53BA41D2BF280C51264A5961D01 /* Debug */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7953F51CBEC17EE8CA4F5C54BDEFA293 /* Pods-GoldenScent.debug.xcconfig */;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		DCB01F463F2BE2FB3E5D841DC798497E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -635,43 +761,21 @@
 			};
 			name = Release;
 		};
-		DCCA511735DF2291B29A3DE20876019B /* Release */ = {
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05B649ABB4E8C207F6BC07F0A2E0B3AC /* Pods-GoldenScent-GoldenScentUITests.release.xcconfig */;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		EBCA318BF5F72A9A174B43C6668E5175 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -731,20 +835,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A164B06A8ADC13CF2942C06F811E419 /* Build configuration list for PBXNativeTarget "Pods-GoldenScent-GoldenScentUITests" */ = {
+		5F86B0C3CD70C2E7A5254851A0329417 /* Build configuration list for PBXNativeTarget "Pods-GoldenScent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A55B02D14EFCA94FE51F8E89CFAC2B /* Debug */,
-				DCCA511735DF2291B29A3DE20876019B /* Release */,
+				1DB8B7420E852F1937D13BA2289C4916 /* Debug */,
+				0061DB5807A727889B6349100582117B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C99D5D1DDEF88B9DEFB16E88B9D1C79E /* Build configuration list for PBXNativeTarget "Pods-GoldenScent" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95ECC53BA41D2BF280C51264A5961D01 /* Debug */,
-				8F76FEA4BDD6ECC62D6EAF92EB0D7A8E /* Release */,
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0629C4526DBBD8FA75870BF092A7390 /* Build configuration list for PBXNativeTarget "Pods-GoldenScent-GoldenScentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693D74E610A98F93BD4B6C6DB4438167 /* Debug */,
+				247092BFEEC67A121C1234068B76CFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

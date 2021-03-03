@@ -6,7 +6,8 @@ target 'GoldenScent' do
   use_frameworks!
 
   # Pods for GoldenScent
-
+  pod 'SwiftLint'
+  
   target 'GoldenScentTests' do
     inherit! :search_paths
     # Pods for testing

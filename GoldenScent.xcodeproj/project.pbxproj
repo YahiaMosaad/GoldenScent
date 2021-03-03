@@ -16,6 +16,9 @@
 		0789AB2E25EF9B1800A37582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0789AB2C25EF9B1800A37582 /* LaunchScreen.storyboard */; };
 		0789AB3925EF9B1800A37582 /* GoldenScentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB3825EF9B1800A37582 /* GoldenScentTests.swift */; };
 		0789AB4425EF9B1800A37582 /* GoldenScentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB4325EF9B1800A37582 /* GoldenScentUITests.swift */; };
+		61EE306495DC743D3D33FDB3 /* Pods_GoldenScent_GoldenScentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9226BC031939F88E46AF8FD /* Pods_GoldenScent_GoldenScentUITests.framework */; };
+		8B404DFB3593FC12055E63DC /* Pods_GoldenScent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E15F179EE7FDF9CA1ACCCD /* Pods_GoldenScent.framework */; };
+		E88F21CE46E954705D525004 /* Pods_GoldenScentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C75E2A436A976DB53B4D13 /* Pods_GoldenScentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		0789AB3F25EF9B1800A37582 /* GoldenScentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenScentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0789AB4325EF9B1800A37582 /* GoldenScentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenScentUITests.swift; sourceTree = "<group>"; };
 		0789AB4525EF9B1800A37582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A94EB856D950030A6397391 /* Pods-GoldenScent-GoldenScentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent-GoldenScentUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38C75E2A436A976DB53B4D13 /* Pods_GoldenScentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenScentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8A7AB8643A19A85EDE9E2B /* Pods-GoldenScent-GoldenScentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent-GoldenScentUITests.release.xcconfig"; path = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FD81D9BDD20959D2F672F8B /* Pods-GoldenScent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent.release.xcconfig"; path = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent.release.xcconfig"; sourceTree = "<group>"; };
+		66B5A55CB17600D8B024B0E4 /* Pods-GoldenScentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScentTests.debug.xcconfig"; path = "Target Support Files/Pods-GoldenScentTests/Pods-GoldenScentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C18416902F5D1F36B50366E /* Pods-GoldenScent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent.debug.xcconfig"; path = "Target Support Files/Pods-GoldenScent/Pods-GoldenScent.debug.xcconfig"; sourceTree = "<group>"; };
+		A3440BE23DBD5F73EB7B0286 /* Pods-GoldenScentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScentTests.release.xcconfig"; path = "Target Support Files/Pods-GoldenScentTests/Pods-GoldenScentTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7E15F179EE7FDF9CA1ACCCD /* Pods_GoldenScent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenScent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9226BC031939F88E46AF8FD /* Pods_GoldenScent_GoldenScentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenScent_GoldenScentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B404DFB3593FC12055E63DC /* Pods_GoldenScent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88F21CE46E954705D525004 /* Pods_GoldenScentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EE306495DC743D3D33FDB3 /* Pods_GoldenScent_GoldenScentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				0789AB3725EF9B1800A37582 /* GoldenScentTests */,
 				0789AB4225EF9B1800A37582 /* GoldenScentUITests */,
 				0789AB1C25EF9B1600A37582 /* Products */,
+				E74B239AD932782EF5395D31 /* Pods */,
+				099A7195DECF3AFC75A4BA9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +118,13 @@
 		0789AB1D25EF9B1600A37582 /* GoldenScent */ = {
 			isa = PBXGroup;
 			children = (
+				0789AB5825EF9C4D00A37582 /* Screens */,
+				0789AB5725EF9C1B00A37582 /* Resources */,
 				0789AB1E25EF9B1600A37582 /* AppDelegate.swift */,
 				0789AB2025EF9B1600A37582 /* SceneDelegate.swift */,
 				0789AB2225EF9B1600A37582 /* ViewController.swift */,
 				0789AB2425EF9B1600A37582 /* Main.storyboard */,
-				0789AB2A25EF9B1800A37582 /* Assets.xcassets */,
 				0789AB2C25EF9B1800A37582 /* LaunchScreen.storyboard */,
-				0789AB2F25EF9B1800A37582 /* Info.plist */,
-				0789AB2725EF9B1600A37582 /* GoldenScent.xcdatamodeld */,
 			);
 			path = GoldenScent;
 			sourceTree = "<group>";
@@ -131,6 +147,71 @@
 			path = GoldenScentUITests;
 			sourceTree = "<group>";
 		};
+		0789AB5725EF9C1B00A37582 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0789AB2A25EF9B1800A37582 /* Assets.xcassets */,
+				0789AB2F25EF9B1800A37582 /* Info.plist */,
+				0789AB2725EF9B1600A37582 /* GoldenScent.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0789AB5825EF9C4D00A37582 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0789AB5B25EF9C8400A37582 /* View */,
+				0789AB5A25EF9C7200A37582 /* ViewModel */,
+				0789AB5925EF9C5D00A37582 /* Model */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0789AB5925EF9C5D00A37582 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0789AB5A25EF9C7200A37582 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0789AB5B25EF9C8400A37582 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		099A7195DECF3AFC75A4BA9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E15F179EE7FDF9CA1ACCCD /* Pods_GoldenScent.framework */,
+				D9226BC031939F88E46AF8FD /* Pods_GoldenScent_GoldenScentUITests.framework */,
+				38C75E2A436A976DB53B4D13 /* Pods_GoldenScentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74B239AD932782EF5395D31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C18416902F5D1F36B50366E /* Pods-GoldenScent.debug.xcconfig */,
+				5FD81D9BDD20959D2F672F8B /* Pods-GoldenScent.release.xcconfig */,
+				0A94EB856D950030A6397391 /* Pods-GoldenScent-GoldenScentUITests.debug.xcconfig */,
+				3E8A7AB8643A19A85EDE9E2B /* Pods-GoldenScent-GoldenScentUITests.release.xcconfig */,
+				66B5A55CB17600D8B024B0E4 /* Pods-GoldenScentTests.debug.xcconfig */,
+				A3440BE23DBD5F73EB7B0286 /* Pods-GoldenScentTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0789AB4825EF9B1800A37582 /* Build configuration list for PBXNativeTarget "GoldenScent" */;
 			buildPhases = (
+				F33DF78B3F33D3269D7837F4 /* [CP] Check Pods Manifest.lock */,
 				0789AB1725EF9B1600A37582 /* Sources */,
 				0789AB1825EF9B1600A37582 /* Frameworks */,
 				0789AB1925EF9B1600A37582 /* Resources */,
@@ -155,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0789AB4B25EF9B1800A37582 /* Build configuration list for PBXNativeTarget "GoldenScentTests" */;
 			buildPhases = (
+				F7234887E0435BCAC4B8E400 /* [CP] Check Pods Manifest.lock */,
 				0789AB3025EF9B1800A37582 /* Sources */,
 				0789AB3125EF9B1800A37582 /* Frameworks */,
 				0789AB3225EF9B1800A37582 /* Resources */,
@@ -173,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0789AB4E25EF9B1800A37582 /* Build configuration list for PBXNativeTarget "GoldenScentUITests" */;
 			buildPhases = (
+				DEDAF2303BE275B69046DBFD /* [CP] Check Pods Manifest.lock */,
 				0789AB3B25EF9B1800A37582 /* Sources */,
 				0789AB3C25EF9B1800A37582 /* Frameworks */,
 				0789AB3D25EF9B1800A37582 /* Resources */,
@@ -255,6 +339,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEDAF2303BE275B69046DBFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldenScent-GoldenScentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33DF78B3F33D3269D7837F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldenScent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7234887E0435BCAC4B8E400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldenScentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0789AB1725EF9B1600A37582 /* Sources */ = {
@@ -437,6 +590,7 @@
 		};
 		0789AB4925EF9B1800A37582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C18416902F5D1F36B50366E /* Pods-GoldenScent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,12 +603,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YahiaMosaad.GoldenScent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0789AB4A25EF9B1800A37582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD81D9BDD20959D2F672F8B /* Pods-GoldenScent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,12 +622,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YahiaMosaad.GoldenScent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		0789AB4C25EF9B1800A37582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B5A55CB17600D8B024B0E4 /* Pods-GoldenScentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +650,7 @@
 		};
 		0789AB4D25EF9B1800A37582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3440BE23DBD5F73EB7B0286 /* Pods-GoldenScentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +672,7 @@
 		};
 		0789AB4F25EF9B1800A37582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A94EB856D950030A6397391 /* Pods-GoldenScent-GoldenScentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +692,7 @@
 		};
 		0789AB5025EF9B1800A37582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8A7AB8643A19A85EDE9E2B /* Pods-GoldenScent-GoldenScentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

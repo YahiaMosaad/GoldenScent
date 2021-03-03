@@ -1,0 +1,6 @@
+framework module Pods_GoldenScent {
+  umbrella header "Pods-GoldenScent-umbrella.h"
+
+  export *
+  module * { export * }
+}

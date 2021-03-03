@@ -1,0 +1,6 @@
+framework module Pods_GoldenScent_GoldenScentUITests {
+  umbrella header "Pods-GoldenScent-GoldenScentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

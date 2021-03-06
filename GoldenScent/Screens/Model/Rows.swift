@@ -52,8 +52,6 @@ struct Column: Codable {
 struct Background: Codable {
     let color: String
 }
-
-
 // MARK: - Slide
 struct Slide: Codable {
     let type: String

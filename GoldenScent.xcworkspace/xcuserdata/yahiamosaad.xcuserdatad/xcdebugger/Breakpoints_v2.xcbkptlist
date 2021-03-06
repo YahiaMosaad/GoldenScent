@@ -123,8 +123,8 @@
             filePath = "GoldenScent/Screens/View/Cells/TableCells/RowTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "estimatedFrame(text:font:)"
             landmarkType = "7">
          </BreakpointContent>

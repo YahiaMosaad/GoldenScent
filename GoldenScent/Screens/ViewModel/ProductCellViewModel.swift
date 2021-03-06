@@ -9,19 +9,16 @@ import Foundation
 import UIKit
 
 class ProductCellViewModel {
-    
     var rowVMs: [CollectionViewCellViewModel] = []
     var row: Row!
-    var SlidersArray = [Slide]()
+    var slidersArray = [Slide]()
     init(row: Row) {
         self.row = row
-        
         // Initialize rowsVMs
         row.columns.forEach({
             rowVMs.append(CollectionViewCellViewModel.init(column: $0))
         })
     }
-    
     var numberOfRows: Int {
         self.rowVMs.count
     }
@@ -35,10 +32,7 @@ class ProductCellViewModel {
         self.row.rowMarginBottom?.numbers.CGFloatValue() ?? 0.0
     }
     func columnViewModel(at indexPath: IndexPath) -> CollectionViewCellViewModel {
-        SlidersArray = self.rowVMs[indexPath.row].slider ?? []
+        slidersArray = self.rowVMs[indexPath.row].slider ?? []
         return self.rowVMs[indexPath.row]
     }
-    
-
-
 }

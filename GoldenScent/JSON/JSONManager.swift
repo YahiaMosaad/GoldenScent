@@ -9,9 +9,10 @@ import Foundation
 
 class JSONManager: JSONProtocol {
     func fetcRowsDataFrom(fileName: String,
-                          success: ((Rows) -> Void)?,
-                                failure: ((JSONError) -> Void)?) {
-        execute(fileName: fileName, withModel: Rows.self, success: { (result) in
+                          success: ((Rows) -> Void)?, failure: ((JSONError) -> Void)?) {
+        execute(fileName: fileName,
+                withModel: Rows.self,
+                success: { (result) in
             success!(result)
         }) { (error) in
             failure!(error)

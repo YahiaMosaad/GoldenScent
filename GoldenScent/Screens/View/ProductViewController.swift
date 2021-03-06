@@ -8,23 +8,20 @@
 import UIKit
 
 class ProductViewController: UIViewController {
-    // MARK:- Variables
+    // MARK: Variables
     let viewModel = ProductViewModel()
-    
-    // MARK:- Outlets
+    // MARK: Outlets
     @IBOutlet var productView: ProductView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Init the static view
         initView()
-        
         // init view model
         initVM()
     }
     func initView() {
         self.navigationItem.title = "Golden Scent"
-        
         productView.rowsTableView.rowHeight = UITableView.automaticDimension
     }
 
@@ -50,7 +47,6 @@ class ProductViewController: UIViewController {
                 switch self.viewModel.state {
                 case .empty, .error:
                     self.productView.activityIndicator.stopAnimating()
-                    
                     UIView.animate(withDuration: 0.2, animations: {
                         self.productView.rowsTableView.alpha = 0.0
                         self.productView.errorView.alpha = 1.0
@@ -85,32 +81,27 @@ class ProductViewController: UIViewController {
         alert.addAction( UIAlertAction(title: "Ok", style: .cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
-    
 }
 
 extension ProductViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfCells
-        
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 //        return 328
 //    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "RowTableViewCell", for: indexPath) as? RowTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "RowTableViewCell",
+                                                       for: indexPath) as? RowTableViewCell else {
             fatalError("Cell not exists in storyboard")
         }
-        
         let cellVM = viewModel.getCellViewModel( at: indexPath )
         cell.rowCellViewModel = cellVM
         return cell
     }
-
-
 }
 
 extension ProductViewController: UITableViewDelegate {
@@ -118,9 +109,7 @@ extension ProductViewController: UITableViewDelegate {
 //        viewModel.userSelectTask(at: indexPath)
         if viewModel.isAllowSegue {
 //            self.performSegue(withIdentifier: "taskDetailsSegue", sender: self)
-        }else {
+        } else {
         }
     }
-
-    
 }

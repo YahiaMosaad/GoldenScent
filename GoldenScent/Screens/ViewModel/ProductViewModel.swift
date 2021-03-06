@@ -15,8 +15,6 @@ enum RowTableViewCellType {
 class ProductViewModel {
     let json: JSONManager
     private var rowssArray: [Row] = [Row]()
-    
-    
     private var cellViewModels: [ProductCellViewModel] = [ProductCellViewModel]() {
         didSet {
             self.reloadTableViewClosure?()
@@ -43,57 +41,36 @@ class ProductViewModel {
     }
     var selectedRow: Row?
     var isAllowSegue: Bool = false
-    
-    //Native binding
-    var reloadTableViewClosure: (()->())?
-    var updateLoadingStatus: (()->())?
-    var showAlertClosure: (()->())?
-    var showErrorView: (()->())?
-    
+    // Native binding
+    var reloadTableViewClosure: (() -> Void)?
+    var updateLoadingStatus: (() -> Void)?
+    var showAlertClosure: (() -> Void)?
+    var showErrorView: (() -> Void)?
     init( json: JSONManager = JSONManager()) {
         self.json = json
     }
     func fetchRows() {
         state = .loading
-        
         json.fetcRowsDataFrom(fileName: "GoldenScent") { (rowsModel) in
             self.state = .populated
             self.processFetchedTasks(rows: rowsModel.rows)
-            
         } failure: { (error) in
             self.state = .error
             switch error {
-            
             case .unexpectedError:
                 self.alertMessage = error.localizedDescription
-                
             case .parsingError:
                 self.alertMessage = error.localizedDescription
-                
             case .noDataFound:
                 self.alertMessage = error.localizedDescription
-                
             case .fileNotFound:
                 self.alertMessage = error.localizedDescription
-                
             }
-            
         }
-        
     }
     func getCellViewModel( at indexPath: IndexPath ) -> ProductCellViewModel {
         return cellViewModels[indexPath.row]
     }
-    
-    //    func createCellViewModel( row: Row ) -> ProductCellViewModel {
-    //
-    //
-    //        return TaskCellViewModel( nameText: task.name ?? "",
-    //                                  detailsText: task.details ?? "",
-    //                                  attachmentPath: task.attachmentPath ?? "",
-    //                                  dateText: dateFormatter.string(from: task.date ?? Date()))
-    //
-    //    }
     private func processFetchedTasks( rows: [Row] ) {
         self.rowssArray = rows // Cache
         var vms = [ProductCellViewModel]()

@@ -28,7 +28,6 @@
 		0789ABC925EFE70C00A37582 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABC825EFE70C00A37582 /* CollectionViewCellViewModel.swift */; };
 		0789ABD425F0017600A37582 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABD325F0017600A37582 /* ImageCollectionViewCell.swift */; };
 		0789ABF725F007C700A37582 /* GoldenScent.json in Resources */ = {isa = PBXBuildFile; fileRef = 0789ABF625F007C700A37582 /* GoldenScent.json */; };
-		0789AC0325F0C57D00A37582 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AC0225F0C57D00A37582 /* UIImageView.swift */; };
 		0789AC5125F10EDC00A37582 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC3D25F10EDA00A37582 /* Gilroy-HeavyItalic.ttf */; };
 		0789AC5225F10EDC00A37582 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC3E25F10EDB00A37582 /* Gilroy-MediumItalic.ttf */; };
 		0789AC5325F10EDC00A37582 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC3F25F10EDB00A37582 /* Gilroy-Light.ttf */; };
@@ -102,7 +101,6 @@
 		0789ABC825EFE70C00A37582 /* CollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		0789ABD325F0017600A37582 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		0789ABF625F007C700A37582 /* GoldenScent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GoldenScent.json; path = ../../../../../GoldenScent.json; sourceTree = "<group>"; };
-		0789AC0225F0C57D00A37582 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		0789AC3D25F10EDA00A37582 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
 		0789AC3E25F10EDB00A37582 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
 		0789AC3F25F10EDB00A37582 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
@@ -316,7 +314,6 @@
 		0789AC0125F0C56C00A37582 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				0789AC0225F0C57D00A37582 /* UIImageView.swift */,
 				0789AC8525F3AEC900A37582 /* String.swift */,
 				0789AC9425F3BA8600A37582 /* UIColor.swift */,
 			);
@@ -403,6 +400,7 @@
 				0789AB1825EF9B1600A37582 /* Frameworks */,
 				0789AB1925EF9B1600A37582 /* Resources */,
 				69DA2AAD566C8BE820938541 /* [CP] Embed Pods Frameworks */,
+				0757C84925F400D300FF6C78 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -543,6 +541,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0757C84925F400D300FF6C78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
 		69DA2AAD566C8BE820938541 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,7 +682,6 @@
 				0789AB9D25EFC48400A37582 /* ProductViewModel.swift in Sources */,
 				0789ABD425F0017600A37582 /* ImageCollectionViewCell.swift in Sources */,
 				0789AC8625F3AEC900A37582 /* String.swift in Sources */,
-				0789AC0325F0C57D00A37582 /* UIImageView.swift in Sources */,
 				0789AB2125EF9B1600A37582 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

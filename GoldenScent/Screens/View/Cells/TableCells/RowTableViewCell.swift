@@ -7,32 +7,28 @@
 
 import UIKit
 
-enum collectionCellType {
+enum CollectionCellType {
     case text
     case image
     case slider
 }
 class RowTableViewCell: UITableViewCell {
-    
     @IBOutlet weak var collectionView: UICollectionView!
-    
     @IBOutlet weak var collectioViewHeight: NSLayoutConstraint!
     @IBOutlet weak var rowMarginLeft: NSLayoutConstraint!
     @IBOutlet weak var rowMarginRight: NSLayoutConstraint!
     @IBOutlet weak var rowMarginBottom: NSLayoutConstraint!
 
-    // MARK:- Variables
+    // MARK: Variables
     var collectionItems: [CollectionViewCellViewModel]?
     var collectionViewCellsCount: Int = 0
     var isSlider: Bool = false
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
     }
-    var rowCellViewModel : ProductCellViewModel? {
+    var rowCellViewModel: ProductCellViewModel? {
         didSet {
             collectionItems = rowCellViewModel?.rowVMs
 
@@ -49,48 +45,41 @@ class RowTableViewCell: UITableViewCell {
                 collectioViewHeight.constant = 230
                 isSlider = false
                 collectionViewCellsCount = collectionItems?.count ?? 0
-                
             case .text:
                 collectioViewHeight.constant = 30
                 isSlider = false
                 collectionViewCellsCount = collectionItems?.count ?? 0
             default:
-               
                 break
             }
             collectionView.layoutIfNeeded()
             self.collectionView.reloadData()
         }
     }
-    
 }
 
 extension RowTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
         return collectionViewCellsCount
     }
-    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
-    
     // Set the data for each cell (color and color name)
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView,
+                        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let column: CollectionViewCellViewModel?
-        
-        if isSlider{
+        if isSlider {
             let index = IndexPath(row: 0, section: 1)
 
             column = rowCellViewModel?.columnViewModel(at: index)
-        }
-        else {
+        } else {
             column = rowCellViewModel?.columnViewModel(at: indexPath)
         }
-        switch  column?.cellType{
+        switch  column?.cellType {
         case .text:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TextCollectionViewCell", for: indexPath) as? TextCollectionViewCell else {
+            guard let cell = collectionView.dequeueReusableCell(
+                    withReuseIdentifier: "TextCollectionViewCell", for: indexPath) as? TextCollectionViewCell else {
                 return UICollectionViewCell()
             }
             cell.cellViewModel = column
@@ -98,7 +87,8 @@ extension RowTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource
 
             return cell
         case .image:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as? ImageCollectionViewCell else {
+            guard let cell = collectionView.dequeueReusableCell(
+                    withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as? ImageCollectionViewCell else {
                 return UICollectionViewCell()
             }
             cell.cellViewModel = column
@@ -106,7 +96,8 @@ extension RowTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource
 
             return cell
         case .slider:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SliderCollectionViewCell", for: indexPath) as? SliderCollectionViewCell else {
+            guard let cell = collectionView.dequeueReusableCell(
+                    withReuseIdentifier: "SliderCollectionViewCell", for: indexPath) as? SliderCollectionViewCell else {
                 return UICollectionViewCell()
             }
             cell.slider = column?.slider?[indexPath.row]
@@ -117,25 +108,25 @@ extension RowTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource
         case .none:
             return UICollectionViewCell()
         }
-        
     }
 
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
         let column: CollectionViewCellViewModel?
 
-        if isSlider{
+        if isSlider {
             let index = IndexPath(row: 0, section: 1)
-            
             column = rowCellViewModel?.columnViewModel(at: index)
-        }
-        else {
+        } else {
             column = rowCellViewModel?.columnViewModel(at: indexPath)
         }
-        switch  column?.cellType{
+        switch  column?.cellType {
         case .text:
             let text = column?.text ?? ""
             let margines = 10.0
-            let width = self.estimatedFrame(text: text, font: UIFont.systemFont(ofSize: column?.textFontSize ?? 0.0)).width
+            let width = self.estimatedFrame(text: text,
+                                            font: UIFont.systemFont(ofSize: column?.textFontSize ?? 0.0)).width
             return CGSize(width: Double(width) + margines, height: 30.0)
         case .image:
             return CGSize(width: 200, height: 300.0)
@@ -145,7 +136,6 @@ extension RowTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource
 
         case .none:
             return CGSize(width: 200, height: 300.0)
-     
         }
 
     }
@@ -159,11 +149,11 @@ extension RowTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource
                                                    context: nil)
     }
 
-    //Add spaces at the beginning and the end of the collection view
-   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+    // Add spaces at the beginning and the end of the collection view
+   func collectionView(_ collectionView: UICollectionView,
+                       layout collectionViewLayout: UICollectionViewLayout,
+                       insetForSectionAt section: Int) -> UIEdgeInsets {
        return UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
    }
 
 }
-
- 

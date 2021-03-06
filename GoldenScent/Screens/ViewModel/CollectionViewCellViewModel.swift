@@ -22,10 +22,10 @@ class CollectionViewCellViewModel {
     var backGroundColor: String? {
         return self.column.background?.color
     }
-    var textFontName : String? {
+    var textFontName: String? {
         return self.column.font
     }
-    var textAlighment : NSTextAlignment? {
+    var textAlighment: NSTextAlignment? {
         if self.column.textAlign == "left" {
             return .left
         } else if self.column.textAlign == "right" {
@@ -48,18 +48,14 @@ class CollectionViewCellViewModel {
     var slider: [Slide]? {
         return self.column.slides
      }
-    
-    var cellType: collectionCellType {
+    var cellType: CollectionCellType {
         if self.column.type == "text" {
             return .text
-        }
-        else if column.type == "image" {
+        } else if column.type == "image" {
             return .image
-        }
-        else if column.type == "custom-slider" {
+        } else if column.type == "custom-slider" {
             return .slider
-        }
-        else {
+        } else {
             return .text
         }
     }

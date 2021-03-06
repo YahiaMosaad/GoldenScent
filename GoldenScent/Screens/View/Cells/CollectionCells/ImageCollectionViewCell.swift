@@ -9,8 +9,7 @@ import UIKit
 
 class ImageCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var image: UIImageView!
- 
-    var cellViewModel : CollectionViewCellViewModel? {
+    var cellViewModel: CollectionViewCellViewModel? {
         didSet {
             self.image.sd_setImage(with: URL(string: cellViewModel?.imageURL ?? ""), completed: nil)
         }

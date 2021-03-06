@@ -14,15 +14,14 @@ class ProductView: UIView {
     @IBOutlet weak var errorView: UIView!
     @IBOutlet weak var errorLabel: UILabel!
 
-
-    // MARK:- Public Methods
-    func setup(){
+    // MARK: Public Methods
+    func setup() {
         setUpInitialState()
     }
-    func setUpInitialState(){
+    func setUpInitialState() {
         rowsTableView.isHidden = true
     }
-    func showNoDataFound(){
+    func showNoDataFound() {
         rowsTableView.isHidden = true
         errorView.isHidden = false
         errorLabel.isHidden = false

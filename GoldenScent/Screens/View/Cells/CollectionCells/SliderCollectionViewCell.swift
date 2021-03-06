@@ -12,10 +12,8 @@ class SliderCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var image: UIImageView!
-    
-    var slider : Slide?
-    
-    var cellViewModel : CollectionViewCellViewModel? {
+    var slider: Slide?
+    var cellViewModel: CollectionViewCellViewModel? {
         didSet {
             if slider?.type == "text" {
                 self.textLabel.text = self.slider?.src

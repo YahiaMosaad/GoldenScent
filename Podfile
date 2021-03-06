@@ -7,7 +7,8 @@ target 'GoldenScent' do
 
   # Pods for GoldenScent
   pod 'SwiftLint'
-  
+  pod 'SDWebImage', '~> 4.0'
+
   target 'GoldenScentTests' do
     inherit! :search_paths
     # Pods for testing

@@ -62,5 +62,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gilroy-Black</string>
+		<string>Gilroy-BlackItalic</string>
+		<string>Gilroy-Bold</string>
+		<string>Gilroy-BoldItalic</string>
+		<string>Gilroy-ExtraBold</string>
+		<string>Gilroy-ExtraBoldItalic</string>
+		<string>Gilroy-Heavy</string>
+		<string>Gilroy-HeavyItalic</string>
+		<string>Gilroy-Light</string>
+		<string>Gilroy-LightItalic</string>
+		<string>Gilroy-Medium</string>
+		<string>Gilroy-MediumItalic</string>
+		<string>Gilroy-Regular</string>
+		<string>Gilroy-RegularItalic</string>
+		<string>Gilroy-SemiBold</string>
+		<string>Gilroy-Thin</string>
+	</array>
 </dict>
 </plist>

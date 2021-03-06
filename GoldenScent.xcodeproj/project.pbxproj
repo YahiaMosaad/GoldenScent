@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,10 +16,42 @@
 		0789AB3925EF9B1800A37582 /* GoldenScentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB3825EF9B1800A37582 /* GoldenScentTests.swift */; };
 		0789AB4425EF9B1800A37582 /* GoldenScentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB4325EF9B1800A37582 /* GoldenScentUITests.swift */; };
 		0789AB7425EF9DCD00A37582 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB7325EF9DCD00A37582 /* ProductViewController.swift */; };
-		0789AB8525EFBCA300A37582 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB8425EFBCA300A37582 /* ProductTableViewCell.swift */; };
+		0789AB8525EFBCA300A37582 /* RowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB8425EFBCA300A37582 /* RowTableViewCell.swift */; };
 		0789AB8B25EFC10B00A37582 /* JSONProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB8A25EFC10B00A37582 /* JSONProtocol.swift */; };
-		0789AB9325EFC18900A37582 /* GoldenScent in Resources */ = {isa = PBXBuildFile; fileRef = 0789AB9225EFC18900A37582 /* GoldenScent */; };
 		0789AB9825EFC2E400A37582 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB9725EFC2E400A37582 /* Rows.swift */; };
+		0789AB9D25EFC48400A37582 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AB9C25EFC48400A37582 /* ProductViewModel.swift */; };
+		0789ABA225EFC4E000A37582 /* ProductCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABA125EFC4E000A37582 /* ProductCellViewModel.swift */; };
+		0789ABA725EFC64400A37582 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABA625EFC64400A37582 /* JSONManager.swift */; };
+		0789ABAC25EFCE3900A37582 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABAB25EFCE3900A37582 /* State.swift */; };
+		0789ABB325EFE20500A37582 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABB225EFE20500A37582 /* ProductView.swift */; };
+		0789ABC425EFE31F00A37582 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABC325EFE31F00A37582 /* SliderCollectionViewCell.swift */; };
+		0789ABC925EFE70C00A37582 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABC825EFE70C00A37582 /* CollectionViewCellViewModel.swift */; };
+		0789ABD425F0017600A37582 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789ABD325F0017600A37582 /* ImageCollectionViewCell.swift */; };
+		0789ABF725F007C700A37582 /* GoldenScent.json in Resources */ = {isa = PBXBuildFile; fileRef = 0789ABF625F007C700A37582 /* GoldenScent.json */; };
+		0789AC0325F0C57D00A37582 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AC0225F0C57D00A37582 /* UIImageView.swift */; };
+		0789AC5125F10EDC00A37582 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC3D25F10EDA00A37582 /* Gilroy-HeavyItalic.ttf */; };
+		0789AC5225F10EDC00A37582 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC3E25F10EDB00A37582 /* Gilroy-MediumItalic.ttf */; };
+		0789AC5325F10EDC00A37582 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC3F25F10EDB00A37582 /* Gilroy-Light.ttf */; };
+		0789AC5425F10EDC00A37582 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4025F10EDB00A37582 /* Gilroy-Medium.ttf */; };
+		0789AC5525F10EDC00A37582 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4125F10EDB00A37582 /* Gilroy-ExtraBoldItalic.ttf */; };
+		0789AC5625F10EDC00A37582 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4225F10EDB00A37582 /* Gilroy-LightItalic.ttf */; };
+		0789AC5725F10EDC00A37582 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4325F10EDB00A37582 /* Gilroy-ThinItalic.ttf */; };
+		0789AC5825F10EDC00A37582 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4425F10EDB00A37582 /* Gilroy-BlackItalic.ttf */; };
+		0789AC5925F10EDC00A37582 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4525F10EDB00A37582 /* Gilroy-Heavy.ttf */; };
+		0789AC5A25F10EDC00A37582 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4625F10EDB00A37582 /* Gilroy-RegularItalic.ttf */; };
+		0789AC5B25F10EDC00A37582 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4725F10EDB00A37582 /* Gilroy-UltraLight.ttf */; };
+		0789AC5C25F10EDC00A37582 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4825F10EDB00A37582 /* Gilroy-Black.ttf */; };
+		0789AC5D25F10EDC00A37582 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4925F10EDB00A37582 /* Gilroy-SemiBoldItalic.ttf */; };
+		0789AC5E25F10EDC00A37582 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4A25F10EDB00A37582 /* Gilroy-ExtraBold.ttf */; };
+		0789AC5F25F10EDC00A37582 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4B25F10EDB00A37582 /* Gilroy-Thin.ttf */; };
+		0789AC6025F10EDC00A37582 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4C25F10EDC00A37582 /* Gilroy-Bold.ttf */; };
+		0789AC6125F10EDC00A37582 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4D25F10EDC00A37582 /* Gilroy-SemiBold.ttf */; };
+		0789AC6225F10EDC00A37582 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4E25F10EDC00A37582 /* Gilroy-Regular.ttf */; };
+		0789AC6325F10EDC00A37582 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC4F25F10EDC00A37582 /* Gilroy-UltraLightItalic.ttf */; };
+		0789AC6425F10EDC00A37582 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789AC5025F10EDC00A37582 /* Gilroy-BoldItalic.ttf */; };
+		0789AC8625F3AEC900A37582 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AC8525F3AEC900A37582 /* String.swift */; };
+		0789AC9025F3B71F00A37582 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AC8F25F3B71F00A37582 /* TextCollectionViewCell.swift */; };
+		0789AC9525F3BA8600A37582 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789AC9425F3BA8600A37582 /* UIColor.swift */; };
 		61EE306495DC743D3D33FDB3 /* Pods_GoldenScent_GoldenScentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9226BC031939F88E46AF8FD /* Pods_GoldenScent_GoldenScentUITests.framework */; };
 		8B404DFB3593FC12055E63DC /* Pods_GoldenScent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E15F179EE7FDF9CA1ACCCD /* Pods_GoldenScent.framework */; };
 		E88F21CE46E954705D525004 /* Pods_GoldenScentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C75E2A436A976DB53B4D13 /* Pods_GoldenScentTests.framework */; };
@@ -58,10 +90,42 @@
 		0789AB4325EF9B1800A37582 /* GoldenScentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenScentUITests.swift; sourceTree = "<group>"; };
 		0789AB4525EF9B1800A37582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0789AB7325EF9DCD00A37582 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
-		0789AB8425EFBCA300A37582 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		0789AB8425EFBCA300A37582 /* RowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTableViewCell.swift; sourceTree = "<group>"; };
 		0789AB8A25EFC10B00A37582 /* JSONProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONProtocol.swift; sourceTree = "<group>"; };
-		0789AB9225EFC18900A37582 /* GoldenScent */ = {isa = PBXFileReference; lastKnownFileType = text; path = GoldenScent; sourceTree = "<group>"; };
 		0789AB9725EFC2E400A37582 /* Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
+		0789AB9C25EFC48400A37582 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		0789ABA125EFC4E000A37582 /* ProductCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellViewModel.swift; sourceTree = "<group>"; };
+		0789ABA625EFC64400A37582 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		0789ABAB25EFCE3900A37582 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		0789ABB225EFE20500A37582 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		0789ABC325EFE31F00A37582 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		0789ABC825EFE70C00A37582 /* CollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		0789ABD325F0017600A37582 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0789ABF625F007C700A37582 /* GoldenScent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GoldenScent.json; path = ../../../../../GoldenScent.json; sourceTree = "<group>"; };
+		0789AC0225F0C57D00A37582 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0789AC3D25F10EDA00A37582 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		0789AC3E25F10EDB00A37582 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0789AC3F25F10EDB00A37582 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		0789AC4025F10EDB00A37582 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		0789AC4125F10EDB00A37582 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		0789AC4225F10EDB00A37582 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		0789AC4325F10EDB00A37582 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0789AC4425F10EDB00A37582 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0789AC4525F10EDB00A37582 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		0789AC4625F10EDB00A37582 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		0789AC4725F10EDB00A37582 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		0789AC4825F10EDB00A37582 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		0789AC4925F10EDB00A37582 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0789AC4A25F10EDB00A37582 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0789AC4B25F10EDB00A37582 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		0789AC4C25F10EDC00A37582 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		0789AC4D25F10EDC00A37582 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		0789AC4E25F10EDC00A37582 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		0789AC4F25F10EDC00A37582 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		0789AC5025F10EDC00A37582 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0789AC8525F3AEC900A37582 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0789AC8F25F3B71F00A37582 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		0789AC9425F3BA8600A37582 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		0A94EB856D950030A6397391 /* Pods-GoldenScent-GoldenScentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent-GoldenScentUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		38C75E2A436A976DB53B4D13 /* Pods_GoldenScentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenScentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8A7AB8643A19A85EDE9E2B /* Pods-GoldenScent-GoldenScentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent-GoldenScentUITests.release.xcconfig"; path = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +190,7 @@
 		0789AB1D25EF9B1600A37582 /* GoldenScent */ = {
 			isa = PBXGroup;
 			children = (
+				0789AC0125F0C56C00A37582 /* Utilities */,
 				0789AB8925EFC0B000A37582 /* JSON */,
 				0789AB7225EF9D9900A37582 /* Storyboards */,
 				0789AB6D25EF9D6C00A37582 /* Core */,
@@ -156,6 +221,7 @@
 		0789AB5725EF9C1B00A37582 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0789AC3C25F10E7D00A37582 /* Font */,
 				0789AB2A25EF9B1800A37582 /* Assets.xcassets */,
 				0789AB2F25EF9B1800A37582 /* Info.plist */,
 				0789AB2725EF9B1600A37582 /* GoldenScent.xcdatamodeld */,
@@ -184,6 +250,10 @@
 		0789AB5A25EF9C7200A37582 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0789AB9C25EFC48400A37582 /* ProductViewModel.swift */,
+				0789ABA125EFC4E000A37582 /* ProductCellViewModel.swift */,
+				0789ABC825EFE70C00A37582 /* CollectionViewCellViewModel.swift */,
+				0789ABAB25EFCE3900A37582 /* State.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -191,8 +261,9 @@
 		0789AB5B25EF9C8400A37582 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0789ABB725EFE2E200A37582 /* Cells */,
 				0789AB7325EF9DCD00A37582 /* ProductViewController.swift */,
-				0789AB8425EFBCA300A37582 /* ProductTableViewCell.swift */,
+				0789ABB225EFE20500A37582 /* ProductView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,10 +297,75 @@
 		0789AB8925EFC0B000A37582 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				0789ABF625F007C700A37582 /* GoldenScent.json */,
 				0789AB8A25EFC10B00A37582 /* JSONProtocol.swift */,
-				0789AB9225EFC18900A37582 /* GoldenScent */,
+				0789ABA625EFC64400A37582 /* JSONManager.swift */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		0789ABB725EFE2E200A37582 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0789AC6925F2518400A37582 /* CollectionCells */,
+				0789AC6825F2517A00A37582 /* TableCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0789AC0125F0C56C00A37582 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0789AC0225F0C57D00A37582 /* UIImageView.swift */,
+				0789AC8525F3AEC900A37582 /* String.swift */,
+				0789AC9425F3BA8600A37582 /* UIColor.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0789AC3C25F10E7D00A37582 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0789AC4825F10EDB00A37582 /* Gilroy-Black.ttf */,
+				0789AC4425F10EDB00A37582 /* Gilroy-BlackItalic.ttf */,
+				0789AC4C25F10EDC00A37582 /* Gilroy-Bold.ttf */,
+				0789AC5025F10EDC00A37582 /* Gilroy-BoldItalic.ttf */,
+				0789AC4A25F10EDB00A37582 /* Gilroy-ExtraBold.ttf */,
+				0789AC4125F10EDB00A37582 /* Gilroy-ExtraBoldItalic.ttf */,
+				0789AC4525F10EDB00A37582 /* Gilroy-Heavy.ttf */,
+				0789AC3D25F10EDA00A37582 /* Gilroy-HeavyItalic.ttf */,
+				0789AC3F25F10EDB00A37582 /* Gilroy-Light.ttf */,
+				0789AC4225F10EDB00A37582 /* Gilroy-LightItalic.ttf */,
+				0789AC4025F10EDB00A37582 /* Gilroy-Medium.ttf */,
+				0789AC3E25F10EDB00A37582 /* Gilroy-MediumItalic.ttf */,
+				0789AC4E25F10EDC00A37582 /* Gilroy-Regular.ttf */,
+				0789AC4625F10EDB00A37582 /* Gilroy-RegularItalic.ttf */,
+				0789AC4D25F10EDC00A37582 /* Gilroy-SemiBold.ttf */,
+				0789AC4925F10EDB00A37582 /* Gilroy-SemiBoldItalic.ttf */,
+				0789AC4B25F10EDB00A37582 /* Gilroy-Thin.ttf */,
+				0789AC4325F10EDB00A37582 /* Gilroy-ThinItalic.ttf */,
+				0789AC4725F10EDB00A37582 /* Gilroy-UltraLight.ttf */,
+				0789AC4F25F10EDC00A37582 /* Gilroy-UltraLightItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0789AC6825F2517A00A37582 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				0789AB8425EFBCA300A37582 /* RowTableViewCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		0789AC6925F2518400A37582 /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				0789ABC325EFE31F00A37582 /* SliderCollectionViewCell.swift */,
+				0789ABD325F0017600A37582 /* ImageCollectionViewCell.swift */,
+				0789AC8F25F3B71F00A37582 /* TextCollectionViewCell.swift */,
+			);
+			path = CollectionCells;
 			sourceTree = "<group>";
 		};
 		099A7195DECF3AFC75A4BA9C /* Frameworks */ = {
@@ -266,6 +402,7 @@
 				0789AB1725EF9B1600A37582 /* Sources */,
 				0789AB1825EF9B1600A37582 /* Frameworks */,
 				0789AB1925EF9B1600A37582 /* Resources */,
+				69DA2AAD566C8BE820938541 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +440,7 @@
 				0789AB3B25EF9B1800A37582 /* Sources */,
 				0789AB3C25EF9B1800A37582 /* Frameworks */,
 				0789AB3D25EF9B1800A37582 /* Resources */,
+				AC39A739D01D6659F38F0D94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,10 +499,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0789AC5E25F10EDC00A37582 /* Gilroy-ExtraBold.ttf in Resources */,
+				0789AC5D25F10EDC00A37582 /* Gilroy-SemiBoldItalic.ttf in Resources */,
 				0789AB2E25EF9B1800A37582 /* LaunchScreen.storyboard in Resources */,
-				0789AB9325EFC18900A37582 /* GoldenScent in Resources */,
+				0789AC5625F10EDC00A37582 /* Gilroy-LightItalic.ttf in Resources */,
+				0789AC6125F10EDC00A37582 /* Gilroy-SemiBold.ttf in Resources */,
+				0789AC5425F10EDC00A37582 /* Gilroy-Medium.ttf in Resources */,
 				0789AB2B25EF9B1800A37582 /* Assets.xcassets in Resources */,
+				0789AC5825F10EDC00A37582 /* Gilroy-BlackItalic.ttf in Resources */,
+				0789AC6025F10EDC00A37582 /* Gilroy-Bold.ttf in Resources */,
+				0789AC5B25F10EDC00A37582 /* Gilroy-UltraLight.ttf in Resources */,
+				0789ABF725F007C700A37582 /* GoldenScent.json in Resources */,
+				0789AC6425F10EDC00A37582 /* Gilroy-BoldItalic.ttf in Resources */,
+				0789AC6225F10EDC00A37582 /* Gilroy-Regular.ttf in Resources */,
 				0789AB2625EF9B1600A37582 /* Main.storyboard in Resources */,
+				0789AC5725F10EDC00A37582 /* Gilroy-ThinItalic.ttf in Resources */,
+				0789AC5F25F10EDC00A37582 /* Gilroy-Thin.ttf in Resources */,
+				0789AC5925F10EDC00A37582 /* Gilroy-Heavy.ttf in Resources */,
+				0789AC5525F10EDC00A37582 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				0789AC5125F10EDC00A37582 /* Gilroy-HeavyItalic.ttf in Resources */,
+				0789AC5C25F10EDC00A37582 /* Gilroy-Black.ttf in Resources */,
+				0789AC5325F10EDC00A37582 /* Gilroy-Light.ttf in Resources */,
+				0789AC5225F10EDC00A37582 /* Gilroy-MediumItalic.ttf in Resources */,
+				0789AC6325F10EDC00A37582 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				0789AC5A25F10EDC00A37582 /* Gilroy-RegularItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +543,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		69DA2AAD566C8BE820938541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoldenScent/Pods-GoldenScent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoldenScent/Pods-GoldenScent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoldenScent/Pods-GoldenScent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC39A739D01D6659F38F0D94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DEDAF2303BE275B69046DBFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,11 +651,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0789AB1F25EF9B1600A37582 /* AppDelegate.swift in Sources */,
+				0789ABA225EFC4E000A37582 /* ProductCellViewModel.swift in Sources */,
 				0789AB2925EF9B1600A37582 /* GoldenScent.xcdatamodeld in Sources */,
+				0789ABAC25EFCE3900A37582 /* State.swift in Sources */,
+				0789ABC925EFE70C00A37582 /* CollectionViewCellViewModel.swift in Sources */,
+				0789ABC425EFE31F00A37582 /* SliderCollectionViewCell.swift in Sources */,
+				0789ABB325EFE20500A37582 /* ProductView.swift in Sources */,
+				0789AC9025F3B71F00A37582 /* TextCollectionViewCell.swift in Sources */,
+				0789AC9525F3BA8600A37582 /* UIColor.swift in Sources */,
+				0789ABA725EFC64400A37582 /* JSONManager.swift in Sources */,
 				0789AB9825EFC2E400A37582 /* Rows.swift in Sources */,
-				0789AB8525EFBCA300A37582 /* ProductTableViewCell.swift in Sources */,
+				0789AB8525EFBCA300A37582 /* RowTableViewCell.swift in Sources */,
 				0789AB8B25EFC10B00A37582 /* JSONProtocol.swift in Sources */,
 				0789AB7425EF9DCD00A37582 /* ProductViewController.swift in Sources */,
+				0789AB9D25EFC48400A37582 /* ProductViewModel.swift in Sources */,
+				0789ABD425F0017600A37582 /* ImageCollectionViewCell.swift in Sources */,
+				0789AC8625F3AEC900A37582 /* String.swift in Sources */,
+				0789AC0325F0C57D00A37582 /* UIImageView.swift in Sources */,
 				0789AB2125EF9B1600A37582 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,8 +845,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GoldenScent/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GoldenScent/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -660,8 +865,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GoldenScent/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GoldenScent/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

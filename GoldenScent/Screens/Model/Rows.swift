@@ -6,8 +6,8 @@
 //
 
 import Foundation
-// MARK: - Rows
-struct Welcome: Codable {
+// MARK: - Welcome
+struct Rows: Codable {
     let rows: [Row]
 }
 
@@ -35,7 +35,6 @@ struct Column: Codable {
     let src: String?
     let slides: [Slide]?
     let content, textAlign, fontColor: String?
-    let columnFontSize: FontSize?
     let font: String?
     let background: Background?
     let fontSize: String?
@@ -44,9 +43,8 @@ struct Column: Codable {
         case type, src, slides, content
         case textAlign = "text-align"
         case fontColor = "font-color"
-        case columnFontSize = "font-size"
         case font, background
-        case fontSize = "font- size"
+        case fontSize = "font-size"
     }
 }
 
@@ -55,33 +53,6 @@ struct Background: Codable {
     let color: String
 }
 
-enum FontSize: Codable {
-    case integer(Int)
-    case string(String)
-
-    init(from decoder: Decoder) throws {
-        let container = try decoder.singleValueContainer()
-        if let x = try? container.decode(Int.self) {
-            self = .integer(x)
-            return
-        }
-        if let x = try? container.decode(String.self) {
-            self = .string(x)
-            return
-        }
-        throw DecodingError.typeMismatch(FontSize.self, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Wrong type for FontSize"))
-    }
-
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.singleValueContainer()
-        switch self {
-        case .integer(let x):
-            try container.encode(x)
-        case .string(let x):
-            try container.encode(x)
-        }
-    }
-}
 
 // MARK: - Slide
 struct Slide: Codable {

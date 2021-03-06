@@ -27,12 +27,15 @@ extension JSONProtocol {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 let jsonData = try decoder.decode(T.self, from: data)
-                print(jsonData)
+//                print(jsonData)
                     success(jsonData)
             } catch {
                 print("error:\(error)")
                 failure(JSONError.parsingError)
             }
+        }
+        else {
+            failure(JSONError.fileNotFound)
         }
     }
 }

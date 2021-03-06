@@ -6,7 +6,7 @@
       "row-margin-bottom": "5px",
       "columns": [
         {
-          "type": "ima ge",
+          "type": "image",
           "src": "https://picsum.photos/300/200"
         }
       ]
@@ -22,7 +22,7 @@
           "slides": [
             {
               "type": "image",
-              "src": "https://picsum.ph otos/300/200"
+              "src": "https://picsum.photos/300/200"
             },
             {
               "type": "image",
@@ -30,7 +30,7 @@
             },
             {
               "type": "image",
-              "src": "https://picsum.photo s/300/200"
+              "src": "https://picsum.photos/300/200"
             },
             {
               "type": "image",
@@ -68,7 +68,7 @@
     {
       "columns": [
         {
-          "type": "im age",
+          "type": "image",
           "src": "https://picsum.photos/300/200"
         },
         {
@@ -76,7 +76,7 @@
           "src": "https://picsum.photos/300/200"
         },
         {
-          "type": "imag e",
+          "type": "image",
           "src": "https://picsum.photos/300/200"
         }
       ],
